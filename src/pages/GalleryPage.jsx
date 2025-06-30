@@ -9,7 +9,7 @@ function GalleryPage() {
       <SEO
         title="Galeri | Uraz Teknik | Tamamlanan Kombi ve Klima Çalışmaları"
         description="Uraz Teknik olarak Samsun'da tamamladığımız kombi onarım, klima montajı ve petek temizliği çalışmalarımıza göz atın."
-        canonicalUrl="https://www.urazteknik.com/galeri"
+        canonicalUrl="https://www.urazteknik.com.tr/galeri"
       />
       
       {/* Sayfaya Özel Hero Alanı */}

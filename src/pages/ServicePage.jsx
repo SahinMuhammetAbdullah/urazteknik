@@ -26,7 +26,7 @@ function ServicePage() {
       <SEO
         title={data.title}
         description={data.description}
-        canonicalUrl={`https://www.urazteknik.com/hizmet/${slug}`}
+        canonicalUrl={`https://www.urazteknik.com.tr/hizmet/${slug}`}
       />
       
       {/* Sayfaya Özel Hero Alanı */}
