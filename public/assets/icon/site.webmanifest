@@ -1,5 +1,5 @@
 {
-  "name": "Uraz Teknik",
+  "name": "Samsun Klima & Kombi Bakım | Uraz Teknik Isıtma ve Soğutma Sistemleri",
   "short_name": "Uraz Teknik",
   "icons": [
     {
@@ -17,5 +17,6 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "/"
 }

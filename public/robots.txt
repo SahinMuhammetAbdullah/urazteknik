@@ -1,0 +1,6 @@
+# Tüm arama motoru botlarının siteyi taramasına izin ver
+User-agent: *
+Allow: /
+
+# Site haritasının konumunu belirt
+Sitemap: https://www.urazteknik.com/sitemap.xml
