@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Site haritasının konumunu belirt
-Sitemap: https://www.urazteknik.com/sitemap.xml
+Sitemap: https://www.urazteknik.com.tr/sitemap.xml
