@@ -91,12 +91,12 @@ function HomePage() {
                           </div>
                       </div>
                       <div className="expert-credentials">
-                          <span><i className="fas fa-award"></i> 10 Yıl Tecrübe</span>
+                          <span><i className="fas fa-award"></i> 10+ Yıl Tecrübe</span>
                           <span><i className="fas fa-certificate"></i> MYK Belgeli</span>
                           <span><i className="fas fa-user-check"></i> Ustalık Belgeli</span>
                       </div>
                       <p className="expert-bio">
-                          Merhaba, ben Mert Bayram. Samsun Atakum'da 10 yıla yaklaşan mesleki deneyimim ile kombi ve klima sistemlerinde yaşanan her türlü arıza, bakım ve montaj işlemlerinde çözüm ortağınız olmaktan mutluluk duyuyorum. Atakum ve İlkadım başta olmak üzere, tüm kombi ve klima markalarına yönelik hızlı ve kalıcı çözümler üretiyorum.
+                          Merhaba, ben Mert Bayram. Samsun Atakum'da 10+ yıllık mesleki deneyimim ile kombi ve klima sistemlerinde yaşanan her türlü arıza, bakım ve montaj işlemlerinde çözüm ortağınız olmaktan mutluluk duyuyorum. Atakum ve İlkadım başta olmak üzere, tüm kombi ve klima markalarına yönelik hızlı ve kalıcı çözümler üretiyorum.
                       </p>
                   </div>
                   <div className="core-services-grid">
@@ -127,12 +127,12 @@ function HomePage() {
                   <div className="feature-item">
                       <div className="feature-icon"><i className="fas fa-user-tie"></i></div>
                       <h3>Uzman Teknisyenler</h3>
-                      <p>15 yıllık deneyimli ve sertifikalı teknisyen kadromuz</p>
+                      <p>10+ yıllık deneyimli ve sertifikalı teknisyen kadromuz</p>
                   </div>
                   <div className="feature-item">
                       <div className="feature-icon"><i className="fas fa-shield-alt"></i></div>
                       <h3>Garantili Hizmet</h3>
-                      <p>Tüm işlerimize 2 yıl garanti veriyoruz</p>
+                      <p>Tüm işlerimize 1 yıl garanti veriyoruz</p>
                   </div>
                   <div className="feature-item">
                       <div className="feature-icon"><i className="fas fa-tachometer-alt"></i></div>
