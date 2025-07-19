@@ -22,10 +22,10 @@ function Footer() {
           <div className="footer-col">
             <h3 className="footer-title">Hizmet Bölgelerimiz</h3>
             <ul className="footer-links">
-              <li><Link to="/hizmet/atakum-kombi-klima-servisi">Atakum Kombi Servisi</Link></li>
-              <li><Link to="/hizmet/ilkadim-kombi-klima-servisi">İlkadım Kombi Servisi</Link></li>
-              <li><Link to="/hizmet/canik-kombi-klima-servisi">Canik Kombi Servisi</Link></li>
-              <li><Link to="/hizmet/tekkekoy-kombi-klima-servisi">Tekkeköy Klima Servisi</Link></li>
+              <li><Link to="/hizmet/atakum-kombi-klima-servisi">Atakum Kombi ve Klima Servisi</Link></li>
+              <li><Link to="/hizmet/ilkadim-kombi-klima-servisi">İlkadım Kombi ve Klima Servisi</Link></li>
+              <li><Link to="/hizmet/canik-kombi-klima-servisi">Canik Kombi ve Klima Servisi</Link></li>
+              <li><Link to="/hizmet/tekkekoy-kombi-klima-servisi">Tekkeköy Kombi ve Klima Servisi</Link></li>
             </ul>
           </div>
         </div>
