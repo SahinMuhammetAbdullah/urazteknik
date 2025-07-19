@@ -1,4 +1,4 @@
-export const reviewsData = [
+export const allReviews  = [
     {
         name: "Fatma Yılmaz",
         text: "4 ustanın bulamadığı arızayı arkadaşlar buldu sağolsun profesyonel işçilik gerçekten eğitimli ve güleryüzlü kişiler herkese tavsiye ederim",
@@ -45,3 +45,26 @@ export const reviewsData = [
         stars: 5
     }
 ];
+
+/**
+ * Bir diziyi yerinde karıştırmak için Fisher-Yates (aka Knuth) Shuffle algoritması.
+ * @param {Array} array Karıştırılacak dizi.
+ */
+function shuffleArray(array) {
+    // Orijinal diziyi bozmamak için bir kopyasını oluşturuyoruz
+    const newArray = [...array]; 
+    for (let i = newArray.length - 1; i > 0; i--) {
+      // Rastgele bir dizin seç
+      const j = Math.floor(Math.random() * (i + 1));
+      // Elemanları yer değiştir
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+  }
+  
+  // Ana sayfada gösterilecek yorumları dinamik olarak oluştur
+  // Önce tüm yorumları karıştır, sonra ilk üçünü al
+  export const mainPageReviews = shuffleArray(allReviews).slice(0, 3);
+  
+  // Yorumlar sayfasında tüm yorumları göstermek için (sıralı)
+  export const allReviewsData = allReviews;

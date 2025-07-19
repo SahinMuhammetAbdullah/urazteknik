@@ -5,7 +5,7 @@ import GalleryGrid from '../components/GalleryGrid';
 import ReviewCard from '../components/ReviewCard';
 import ServiceCard from '../components/ServiceCard';
 import { mainPageImages } from '../data/galleryData';
-import { reviewsData } from '../data/reviewsData';
+import { mainPageReviews } from '../data/reviewsData'; // Bu yanlış
 
 function HomePage() {
   const googleReviewLink = "https://www.google.com/maps/place/Samsun+Klima+%26+Kombi+Bak%C4%B1m+%7C+Uraz+Teknik+Is%C4%B1tma+ve+So%C4%9Futma+Sistemleri/@41.3109548,36.2880145,14z/data=!4m8!3m7!1s0x4088799777027a85:0x2a703c045375f56!8m2!3d41.314893!4d36.2941137!9m1!1b1!16s%2Fg%2F11xh1zhjwr?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D";
@@ -221,7 +221,7 @@ function HomePage() {
             <p>Google İşletme sayfamızdan gerçek kullanıcı yorumları</p>
           </div>
           <div className="reviews-grid">
-            {reviewsData.map((review, index) => (
+            {mainPageReviews.map((review, index) => ( // Artık 'mainPageReviews' kullanılıyor
               <ReviewCard
                 key={index}
                 name={review.name}
@@ -230,6 +230,12 @@ function HomePage() {
                 link={googleReviewLink}
               />
             ))}
+          </div>
+          {/* YENİ EKLENEN BUTON */}
+          <div className="gallery-more-link">
+              <Link to="/yorumlar" className="btn btn-secondary" style={{color: 'black', borderColor: '#ccc'}}>
+                  Tüm Yorumları Oku <i className="fas fa-arrow-right"></i>
+              </Link>
           </div>
         </div>
       </section>
