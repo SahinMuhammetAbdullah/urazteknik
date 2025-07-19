@@ -37,7 +37,7 @@ function ReviewCard({ name, text, link, stars }) { // 'stars' prop'u eklendi
                         <i className="fab fa-google"></i>
                     </div>
                 </div>
-                <p className="review-text">"{text}"</p>
+                <h1 className="review-text">"{text}"</h1>
             </div>
         </a>
     );
