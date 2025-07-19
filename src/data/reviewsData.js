@@ -28,5 +28,20 @@ export const reviewsData = [
         name: "Eren Mırık",
         text: "Başarılı bir servis herkese tavsiye ediyorum",
         stars: 5
+    },
+    {
+        name: "Samet Ocak",
+        text: "Samsun da kaliteli ve temiz iş yapan uygun fiyatlı arayın memnun kalacaksınız",
+        stars: 5
+    },
+    {
+        name: "Tuncay Dübüş",
+        text: "Uraz Teknik Isıtma ve Soğutma Sistemleri olarak Mert bey ve ekibi Klima montajımızı istediğimiz gibi gerçekleştirdi.Eline emeğine sağlık. Randevu saatinde gelen işinin sahibi güleryüzlü ve güvenilir.Ben çok memnun kaldım. Herkese tavsiye ederim. Kısacası Klimacı arayanlara Mert, NET...",
+        stars: 5
+    },
+    {
+        name: "ibrahim şerefli",
+        text: "İş yerimde elimde bulan bir klimanın kurulumunu için bir kaç kişi ile görüştüm. Uraz Teknikten Mert beyle görüştükten sonra hizmetlerinin uygun olması ve sitelerinde yaptıkları işlerin fotoğraflarını gördükten sonra kendisi ile çalışmaya karar verdim. İşini seven ve tecrübeli birisi. Mert Beye teşekkür ederim.",
+        stars: 5
     }
 ];
