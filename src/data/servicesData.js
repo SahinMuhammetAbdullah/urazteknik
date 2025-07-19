@@ -1,7 +1,7 @@
 export const servicesData = {
   'atakum-kombi-klima-servisi': {
-      title: "Atakum Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
-      description: "Atakum'da profesyonel kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla Atakum geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
+      title: "Atakum Klima ve Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
+      description: "Atakum'da profesyonel klima ve kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla Atakum geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
       heroTitle: "Atakum Kombi & Klima Servisi",
       mainTitle: "Atakum'daki Güvenilir Çözüm Ortağınız: Uraz Teknik",
       mainParagraphs: [
@@ -13,8 +13,8 @@ export const servicesData = {
       sidebarText: "Atakum içi arızalara 30 dakikada müdahale!"
   },
   'ilkadim-kombi-klima-servisi': {
-      title: "İlkadım Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
-      description: "İlkadım'da profesyonel kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla İlkadım geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
+      title: "İlkadım Klima ve Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
+      description: "İlkadım'da profesyonel klima ve kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla İlkadım geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
       heroTitle: "İlkadım Kombi & Klima Servisi",
       mainTitle: "İlkadım'ın Kalbinde Hızlı ve Etkili Servis",
       mainParagraphs: [
@@ -26,8 +26,8 @@ export const servicesData = {
       sidebarText: "İlkadım içi arızalara 30 dakikada müdahale!"
   },
   'canik-kombi-klima-servisi': {
-      title: "Canik Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
-      description: "Canik'de profesyonel kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla Canik geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
+      title: "Canik Klima ve Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
+      description: "Canik'de profesyonel klima ve kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla Canik geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
       heroTitle: "Canik Kombi & Klima Servisi",
       mainTitle: "Canik Bölgesinin Isınma ve Soğutma Uzmanı",
       mainParagraphs: ["<strong>Canik</strong> ilçesinin hem yeni gelişen modern sitelerine hem de köklü mahallelerine özel kombi ve klima çözümleri sunuyorum. Gaziosmanpaşa, Karşıyaka veya Hasköy gibi Canik'in her noktasına aynı gün içinde servis imkanı sağlıyorum.", "MYK belgeli bir teknisyen olarak, sorunun kaynağını doğru tespit edip sadece gerekli müdahaleleri yapıyorum. Şeffaf fiyat politikam ve garantili işçiliğimle, Canik'teki müşterilerime her zaman en kaliteli hizmeti sunmayı hedefliyorum."],
@@ -36,7 +36,7 @@ export const servicesData = {
       sidebarText: "Canik içi arızalara 30 dakikada müdahale!"
   },
   'tekkekoy-kombi-klima-servisi': {
-      title: "Tekkeköy Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
+      title: "Tekkeköy Klima ve Kombi Servisi | Uraz Teknik | 7/24 Bakım & Onarım",
       description: "Tekkeköy'de profesyonel kombi servisi mi arıyorsunuz? Uraz Teknik, Mert Bayram'ın uzmanlığıyla Tekkeköy geneli 7/24 acil kombi arıza, bakım ve montaj hizmeti sunar.",
       heroTitle: "Tekkeköy Kombi & Klima Servisi",
       mainTitle: "Tekkeköy'ün Sanayi ve Konut Alanlarına Özel Klima Çözümleri",
