@@ -8,7 +8,7 @@ export const mainPageImages = [
     
 
     { full: '/assets/images/ilkadim-klima-bakim.jpg', thumb: '/assets/images/ilkadim-klima-bakim.jpg', alt: 'İlkadım Klima Bakım' },
-    { full: '/assets/images/ilkadim-klima-bakim2.jpg', thumb: '/assets/images/ilkadim-klima-bakim2.jpg', alt: 'İlkadım Klima Bakım 2' },
+    { full: '/assets/images/ilkadim-klima-bakim6.jpg', thumb: '/assets/images/ilkadim-kombi-bakim.jpg', alt: 'İlkadım Klima Bakım 6' },
    
 
     { full: '/assets/images/tekkekoy-klima-bakim.jpg', thumb: '/assets/images/tekkekoy-klima-bakim.jpg', alt: 'Tekkeköy Klima Bakım' },
@@ -33,10 +33,10 @@ export const allImages = [
     { full: '/assets/images/canik-klima-bakim8.jpg', thumb: '/assets/images/canik-klima-bakim8.jpg', alt: 'Canik Klima Bakım 8' },
     { full: '/assets/images/canik-klima-bakim9.jpg', thumb: '/assets/images/canik-klima-bakim9.jpg', alt: 'Canik Klima Bakım 9' },
 
+    { full: '/assets/images/ilkadim-klima-bakim2.jpg', thumb: '/assets/images/ilkadim-klima-bakim2.jpg', alt: 'İlkadım Klima Bakım 2' },
     { full: '/assets/images/ilkadim-klima-bakim3.jpg', thumb: '/assets/images/ilkadim-klima-bakim3.jpg', alt: 'İlkadım Klima Bakım 3' },
     { full: '/assets/images/ilkadim-klima-bakim4.jpg', thumb: '/assets/images/ilkadim-klima-bakim4.jpg', alt: 'İlkadım Klima Bakım 4' },
     { full: '/assets/images/ilkadim-klima-bakim5.jpg', thumb: '/assets/images/ilkadim-klima-bakim5.jpg', alt: 'İlkadım Klima Bakım 5' },
-    { full: '/assets/images/ilkadim-klima-bakim6.jpg', thumb: '/assets/images/ilkadim-klima-bakim6.jpg', alt: 'İlkadım Klima Bakım 6' },
     { full: '/assets/images/ilkadim-klima-bakim7.jpg', thumb: '/assets/images/ilkadim-klima-bakim7.jpg', alt: 'İlkadım Klima Bakım 7' },
 
     { full: '/assets/images/tekkekoy-klima-bakim3.jpg', thumb: '/assets/images/tekkekoy-klima-bakim3.jpg', alt: 'Tekkeköy Klima Bakım 3' },
