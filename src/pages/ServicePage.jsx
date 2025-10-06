@@ -1,5 +1,6 @@
 import { useParams, Navigate } from 'react-router-dom';
 import { servicesData } from '../data/servicesData';
+import { HashLink } from 'react-router-hash-link';
 import SEO from '../components/SEO';
 
 // Yeni oluşturduğumuz CSS dosyasını import ediyoruz
