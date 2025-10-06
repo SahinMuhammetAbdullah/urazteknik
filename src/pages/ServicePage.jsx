@@ -28,7 +28,7 @@ function ServicePage() {
         description={data.description}
         canonicalUrl={`https://www.urazteknik.com.tr/hizmet/${slug}`}
       />
-      
+
       {/* Sayfaya Özel Hero Alanı */}
       {/* Stili doğrudan JSX içinde veriyoruz */}
       <section className="page-hero" style={heroStyle}>
@@ -37,7 +37,7 @@ function ServicePage() {
           <p>Mert Bayram'ın 10 Yıllık Tecrübesiyle Garantili Çözümler</p>
         </div>
       </section>
-      
+
       {/* Sayfa içeriği */}
       <main className="content-section">
         <div className="container">
@@ -67,6 +67,18 @@ function ServicePage() {
             </aside>
           </div>
         </div>
+        {/* Harekete Geçirici Mesaj (Call to Action) */}
+        <section className="features" style={{ padding: '60px 0' }}>
+          <div className="container" style={{ textAlign: 'center' }}>
+            <h2 style={{ color: 'white', fontSize: '2.2rem' }}>Siz de Memnun Müşterilerimiz Arasına Katılın</h2>
+            <p style={{ color: 'white', fontSize: '1.2rem', marginTop: '1rem', marginBottom: '2rem' }}>
+              İhtiyaçlarınıza özel çözümler için bizimle iletişime geçin.
+            </p>
+            <HashLink smooth to="/iletisim" className="btn btn-primary">
+              <i className="fas fa-phone"></i> Hemen İletişime Geçin
+            </HashLink>
+          </div>
+        </section>
       </main>
     </>
   );

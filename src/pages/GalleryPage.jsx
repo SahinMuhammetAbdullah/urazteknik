@@ -34,7 +34,7 @@ function GalleryPage() {
               <p style={{ color: 'white', fontSize: '1.2rem', marginTop: '1rem', marginBottom: '2rem' }}>
                   İhtiyaçlarınıza özel çözümler ve ücretsiz keşif için bizimle iletişime geçin.
               </p>
-              <HashLink smooth to="/#iletisim" className="btn btn-primary">
+              <HashLink smooth to="/iletisim" className="btn btn-primary">
                   <i className="fas fa-envelope"></i> İletişim
               </HashLink>
           </div>

@@ -16,6 +16,7 @@ function Footer() {
               <li><HashLink smooth to="/#anasayfa">Ana Sayfa</HashLink></li>
               <li><HashLink smooth to="/#hizmetler">Hizmetlerimiz</HashLink></li>
               <li><HashLink smooth to="/#yorumlar">Müşteri Yorumları</HashLink></li>
+              <li><Link to="/iletisim">İletişim</Link></li>
               <li><Link to="/galeri">Galeri</Link></li>
             </ul>
           </div>
