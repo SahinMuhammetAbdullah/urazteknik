@@ -68,6 +68,7 @@ function ServicePage() {
             </aside>
           </div>
         </div>
+      </main>
         {/* Harekete Geçirici Mesaj (Call to Action) */}
         <section className="features" style={{ padding: '60px 0' }}>
           <div className="container" style={{ textAlign: 'center' }}>
@@ -80,7 +81,6 @@ function ServicePage() {
             </HashLink>
           </div>
         </section>
-      </main>
     </>
   );
 }
