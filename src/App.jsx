@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import ServicePage from './pages/ServicePage';
 import GalleryPage from './pages/GalleryPage';
 import ReviewPage from './pages/ReviewPage';
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="yorumlar" element={<ReviewPage />} />
         <Route path="galeri" element={<GalleryPage />} />
+        <Route path="iletisim" element={<ContactPage />} />
         <Route path="hizmet/:slug" element={<ServicePage />} />
       </Route>
     </Routes>
