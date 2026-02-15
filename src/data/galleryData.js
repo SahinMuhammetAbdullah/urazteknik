@@ -1,5 +1,10 @@
 export const allGalleryImages = [
     { full: '/assets/images/uraz-teknik.jpg', thumb: '/assets/images/uraz-teknik.jpg', alt: 'URAZ TEKNİK' },
+    { full: '/assets/images/uraz-arac-foto.jpeeg', thumb: '/assets/images/uraz-arac-foto.jpeeg', alt: 'Uraz Teknik Hizmet Aracı' },
+    { full: '/assets/images/uraz-klima-1.jpeg', thumb: '/assets/images/uraz-klima-1.jpeg', alt: 'Uraz Teknik Klima' },
+    { full: '/assets/images/uraz-klima.jpeg', thumb: '/assets/images/uraz-klima.jpeg', alt: 'Uraz Teknik Klima' },
+    { full: '/assets/images/uraz-kombi.jpeg', thumb: '/assets/images/uraz-kombi.jpeg', alt: 'Uraz Teknik Kombi' },
+
     { full: '/assets/images/atakum-drenaj-pompasi.jpg', thumb: '/assets/images/atakum-drenaj-pompasi.jpg', alt: 'Atakum Drenaj Pompası' },
 
     { full: '/assets/images/canik-klima-bakim.jpg', thumb: '/assets/images/canik-klima-bakim.jpg', alt: 'Canik Klima Bakım' },
@@ -25,12 +30,12 @@ export const allGalleryImages = [
     { full: '/assets/images/atakum-klima-bakim7.jpg', thumb: '/assets/images/atakum-klima-bakim7.jpg', alt: 'Atakum Klima Bakım Temizleme 7' },
     { full: '/assets/images/atakum-klima-bakim.jpg', thumb: '/assets/images/atakum-klima-bakim.jpg', alt: 'Atakum Klima Bakım' },
 
-    { full: '/assets/images/atakum-kombi-bakim-8.jpg', thumb: '/assets/images/atakum-kombi-bakim-8.jpg', alt: 'Atakum Kombi Bakım' },
-    { full: '/assets/images/atakum-kombi-bakim-9.jpg', thumb: '/assets/images/atakum-kombi-bakim-9.jpg', alt: 'Atakum Kombi Bakım' },
-    { full: '/assets/images/atakum-kombi-bakim-10.jpg', thumb: '/assets/images/atakum-kombi-bakim-10.jpg', alt: 'Atakum Kombi Bakım' },
-    { full: '/assets/images/atakum-kombi-bakim-11.jpg', thumb: '/assets/images/atakum-kombi-bakim-11.jpg', alt: 'Atakum Kombi Bakım' },
-    { full: '/assets/images/atakum-kombi-bakim-12.jpg', thumb: '/assets/images/atakum-kombi-bakim-12.jpg', alt: 'Atakum Kombi Bakım' },
-    { full: '/assets/images/atakum-kombi-bakim-13.jpg', thumb: '/assets/images/atakum-kombi-bakim-13.jpg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-8.jpeg', thumb: '/assets/images/atakum-kombi-bakim-8.jpeg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-9.jpeg', thumb: '/assets/images/atakum-kombi-bakim-9.jpeg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-10.jpeg', thumb: '/assets/images/atakum-kombi-bakim-10.jpeg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-11.jpeg', thumb: '/assets/images/atakum-kombi-bakim-11.jpeg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-12.jpeg', thumb: '/assets/images/atakum-kombi-bakim-12.jpeg', alt: 'Atakum Kombi Bakım' },
+    { full: '/assets/images/atakum-kombi-bakim-13.jpeg', thumb: '/assets/images/atakum-kombi-bakim-13.jpeg', alt: 'Atakum Kombi Bakım' },
 
     { full: '/assets/images/canik-klima-bakim3.jpg', thumb: '/assets/images/canik-klima-bakim3.jpg', alt: 'Canik Klima Bakım 3' },
     { full: '/assets/images/canik-klima-bakim4.jpg', thumb: '/assets/images/canik-klima-bakim4.jpg', alt: 'Canik Klima Bakım 4' },
@@ -58,6 +63,8 @@ export const allGalleryImages = [
     { full: '/assets/images/tekkekoy-klima-bakim9.jpg', thumb: '/assets/images/tekkekoy-klima-bakim9.jpg', alt: 'Tekkeköy Klima Bakım 9' },
     { full: '/assets/images/tekkekoy-klima-bakim10.jpg', thumb: '/assets/images/tekkekoy-klima-bakim10.jpg', alt: 'Tekkeköy Klima Bakım 10' },
     { full: '/assets/images/tekkekoy-klima-bakim11.jpg', thumb: '/assets/images/tekkekoy-klima-bakim11.jpg', alt: 'Tekkeköy Klima Bakım 10' },
+
+
 ];
 
 /**
