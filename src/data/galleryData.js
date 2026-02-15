@@ -53,6 +53,9 @@ export const allGalleryImages = [
     { full: '/assets/images/ilkadim-klima-bakim7.jpg', thumb: '/assets/images/ilkadim-klima-bakim7.jpg', alt: 'İlkadım Klima Bakım 7' },
     { full: '/assets/images/ilkadim-klima-bakim8.jpg', thumb: '/assets/images/ilkadim-klima-bakim8.jpg', alt: 'İlkadım Klima Bakım 7' },
     { full: '/assets/images/ilkadim-klima-bakim9.jpg', thumb: '/assets/images/ilkadim-klima-bakim9.jpg', alt: 'İlkadım Klima Bakım 7' },
+    { full: '/assets/images/ilkadım-kombi-bakim-1.jpg', thumb: '/assets/images/ilkadım-kombi-bakim-1.jpg', alt: 'İlkadım Kombi Bakım ' },
+    { full: '/assets/images/ilkadım-kombi-bakim-2.jpg', thumb: '/assets/images/ilkadım-kombi-bakim-2.jpg', alt: 'İlkadım Kombi Bakım ' },
+    { full: '/assets/images/ilkadım-kombi-bakim-3.jpg', thumb: '/assets/images/ilkadım-kombi-bakim-3.jpg', alt: 'İlkadım Kombi Bakım ' },
 
     { full: '/assets/images/tekkekoy-klima-bakim3.jpg', thumb: '/assets/images/tekkekoy-klima-bakim3.jpg', alt: 'Tekkeköy Klima Bakım 3' },
     { full: '/assets/images/tekkekoy-klima-bakim4.jpg', thumb: '/assets/images/tekkekoy-klima-bakim4.jpg', alt: 'Tekkeköy Klima Bakım 4' },
