@@ -1,6 +1,6 @@
 export const allGalleryImages = [
     { full: '/assets/images/uraz-teknik.jpg', thumb: '/assets/images/uraz-teknik.jpg', alt: 'URAZ TEKNİK' },
-    { full: '/assets/images/uraz-arac-foto.jpeeg', thumb: '/assets/images/uraz-arac-foto.jpeeg', alt: 'Uraz Teknik Hizmet Aracı' },
+    { full: '/assets/images/uraz-arac-foto.jpeg', thumb: '/assets/images/uraz-arac-foto.jpeg', alt: 'Uraz Teknik Hizmet Aracı' },
     { full: '/assets/images/uraz-klima-1.jpeg', thumb: '/assets/images/uraz-klima-1.jpeg', alt: 'Uraz Teknik Klima' },
     { full: '/assets/images/uraz-klima.jpeg', thumb: '/assets/images/uraz-klima.jpeg', alt: 'Uraz Teknik Klima' },
     { full: '/assets/images/uraz-kombi.jpeg', thumb: '/assets/images/uraz-kombi.jpeg', alt: 'Uraz Teknik Kombi' },
