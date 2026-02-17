@@ -16,6 +16,25 @@ function ServicePage() {
   if (!data) {
     return <Navigate to="/" />; // Sayfa bulunamazsa ana sayfaya yönlendir
   }
+  const trackCall = () => {
+    if (window.gtag) {
+      window.gtag('event', 'telefon_tiklama', {
+        'event_category': 'communication',
+        'event_label': `Sidebar - ${data.title}`,
+        'value': 1
+      });
+    }
+  };
+
+  const trackWhatsApp = () => {
+    if (window.gtag) {
+      window.gtag('event', 'whatsapp_tiklama', {
+        'event_category': 'communication',
+        'event_label': `Sidebar - ${data.title}`,
+        'value': 1
+      });
+    }
+  };
 
   // Dinamik olarak arka plan stili oluştur
   const heroStyle = {
@@ -59,28 +78,42 @@ function ServicePage() {
               <i className="fas fa-phone-volume" style={{ fontSize: '3rem', color: '#3498db', marginBottom: '1rem' }}></i>
               <h3>Acil Servis mi Lazım?</h3>
               <p>{data.sidebarText}</p>
-              <a href="tel:+905432064055" className="btn btn-primary" style={{ marginTop: '1rem', width: '100%' }}>
+
+              {/* ARAMA BUTONU */}
+              <a
+                href="tel:+905432064055"
+                className="btn btn-primary"
+                style={{ marginTop: '1rem', width: '100%' }}
+                onClick={trackCall}
+              >
                 <i className="fas fa-phone"></i> Hemen Ara
               </a>
-              <a href="https://wa.me/905432064055" className="btn btn-secondary" style={{ marginTop: '0.5rem', width: '100%', color: '#333', borderColor: '#333' }}>
+
+              {/* WHATSAPP BUTONU */}
+              <a
+                href="https://wa.me/905432064055"
+                className="btn btn-secondary"
+                style={{ marginTop: '0.5rem', width: '100%', color: '#333', borderColor: '#333' }}
+                onClick={trackWhatsApp}
+              >
                 <i className="fab fa-whatsapp"></i> WhatsApp'tan Yaz
               </a>
             </aside>
           </div>
         </div>
       </main>
-        {/* Harekete Geçirici Mesaj (Call to Action) */}
-        <section className="features" style={{ padding: '60px 0' }}>
-          <div className="container" style={{ textAlign: 'center' }}>
-            <h2 style={{ color: 'white', fontSize: '2.2rem' }}>Siz de Memnun Müşterilerimiz Arasına Katılın</h2>
-            <p style={{ color: 'white', fontSize: '1.2rem', marginTop: '1rem', marginBottom: '2rem' }}>
-              İhtiyaçlarınıza özel çözümler için bizimle iletişime geçin.
-            </p>
-            <HashLink smooth to="/iletisim" className="btn btn-primary">
-              <i className="fas fa-phone"></i> Hemen İletişime Geçin
-            </HashLink>
-          </div>
-        </section>
+      {/* Harekete Geçirici Mesaj (Call to Action) */}
+      <section className="features" style={{ padding: '60px 0' }}>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <h2 style={{ color: 'white', fontSize: '2.2rem' }}>Siz de Memnun Müşterilerimiz Arasına Katılın</h2>
+          <p style={{ color: 'white', fontSize: '1.2rem', marginTop: '1rem', marginBottom: '2rem' }}>
+            İhtiyaçlarınıza özel çözümler için bizimle iletişime geçin.
+          </p>
+          <HashLink smooth to="/iletisim" className="btn btn-primary">
+            <i className="fas fa-phone"></i> Hemen İletişime Geçin
+          </HashLink>
+        </div>
+      </section>
     </>
   );
 }

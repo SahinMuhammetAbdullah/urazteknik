@@ -11,6 +11,27 @@ function ContactPage() {
     message: '' 
   });
 
+  // --- ANALİTİK TAKİP FONKSİYONLARI ---
+  const trackCall = () => {
+    if (window.gtag) {
+      window.gtag('event', 'telefon_tiklama', {
+        'event_category': 'communication',
+        'event_label': 'Contact Page - Phone Icon',
+        'value': 1
+      });
+    }
+  };
+
+  const trackFormSubmit = (hizmetTuru) => {
+    if (window.gtag) {
+      window.gtag('event', 'form_gonderimi', {
+        'event_category': 'lead',
+        'event_label': `Contact Page - ${hizmetTuru}`,
+        'value': 1
+      });
+    }
+  };
+
   const handleFormChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
@@ -22,6 +43,9 @@ function ContactPage() {
       alert('Lütfen Ad Soyad ve Telefon alanlarını doldurun.');
       return;
     }
+
+    // Analitik verisini gönder
+    trackFormSubmit(formData.service);
 
     let whatsappMessage = `Merhaba! Servis talebim var:\n\n` +
                           `Ad: ${formData.name}\n` +
@@ -37,7 +61,6 @@ function ContactPage() {
         setFormData({ name: '', phone: '', service: 'Kombi Bakım', message: '' });
     }
   };
-  // --- Form Mantığı Bitişi ---
     
   return (
     <>
@@ -58,7 +81,13 @@ function ContactPage() {
               <h3>İletişim Bilgileri</h3>
               <div className="contact-item">
                 <div className="contact-icon"><i className="fas fa-phone"></i></div>
-                <div><strong>Telefon</strong><br />0543 206 40 55</div>
+                {/* Telefon numarasına tıklamayı takip ediyoruz */}
+                <div>
+                    <strong>Telefon</strong><br />
+                    <a href="tel:+905432064055" onClick={trackCall} style={{color: 'inherit', textDecoration: 'none'}}>
+                        0543 206 40 55
+                    </a>
+                </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon"><i className="fab fa-whatsapp"></i></div>
@@ -71,7 +100,7 @@ function ContactPage() {
               <div className="contact-map" style={{ marginTop: '1rem' }}>
                 <iframe
                   title="Google Harita Konumu"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.699415107487!2d36.29301732716694!3d41.31540224545222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4088799777027a85%3A0x2a703c045375f56!2sSamsun%20Klima%20%26%2B%20Kombi%20Bak%C4%B1m%20%7C%20Uraz%20Teknik%20Is%C4%B1tma%20ve%20So%C4%9Futma%20Sistemleri!5e0!3m2!1str!2str!4v1750631873399!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.84025064516!2d36.262575!3d41.31215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE4JzQzLjciTiAzNsKwMTUnNDUuMyJF!5e0!3m2!1str!2str!4v1690000000000!5m2!1str!2str"
                   allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
               </div>
