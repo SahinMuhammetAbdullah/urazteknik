@@ -16,7 +16,16 @@ function Header() {
           <li><HashLink smooth to="/#yorumlar">Yorumlar</HashLink></li>
           <li><HashLink smooth to="/#galeri">Galeri</HashLink></li>
         </ul>
-        <a href="tel:+905432064055" className="emergency-btn">
+        <a
+          href="tel:+905432064055"
+          className="emergency-btn"
+          onClick={() => {
+            window.gtag('event', 'telefon_tiklama', {
+              'event_category': 'contact',
+              'event_label': '7/24 Acil Servis'
+            });
+          }}
+        >
           <i className="fas fa-phone"></i> 7/24 ACİL SERVİS
         </a>
       </nav>
