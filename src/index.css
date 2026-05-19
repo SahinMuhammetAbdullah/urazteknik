@@ -455,6 +455,7 @@ footer {
 
   .hero h1 {
     font-size: 2.5rem;
+    padding: 85px 0 50px;
   }
 
   .contact-grid {
@@ -564,6 +565,146 @@ footer {
 .review-card {
   cursor: pointer;
 }
+
+/**/
+.reviews-carousel-wrapper {
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.reviews-slide {
+  min-width: calc(100% / 3);
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .reviews-slide {
+    min-width: calc(100% / 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews-slide {
+    min-width: 100%;
+  }
+}
+
+.reviews-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1.5rem;
+}
+
+.reviews-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s;
+}
+
+.reviews-dot.active {
+  background: #3498db;
+}
+@media (min-width: 769px) {
+  .hero     { order: 1; }
+  .services { order: 2; }
+  .features { order: 3; }
+  .contact  { order: 4; }
+  .reviews  { order: 5; }
+  .gallery  { order: 6; }
+}
+@media (max-width: 768px) {
+  .hero     { order: 1; }
+  .reviews  { order: 2; }
+  .services { order: 3; }
+  .features { order: 4; }
+  .contact  { order: 5; }
+  .gallery  { order: 6; }
+}
+@media (max-width: 768px) {
+  /* Section başlıkları küçült */
+  .section-title h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-title p {
+    font-size: 0.9rem;
+  }
+
+  /* Reviews section mobilde daha az padding */
+  .reviews {
+    padding: 40px 0 30px;
+  }
+
+  .reviews-carousel-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  /* Review card küçült */
+  .review-card {
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+  }
+
+  .reviewer-info h3 {
+    font-size: 1rem;
+  }
+
+  .review-stars {
+    font-size: 0.85rem;
+  }
+
+  .review-source-icon {
+    font-size: 1.4rem;
+  }
+
+  .review-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Hero küçült */
+  .hero {
+    padding: 80px 0 50px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Dots küçült */
+  .reviews-dots {
+    margin-top: 1rem;
+    gap: 6px;
+  }
+
+  .reviews-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+/* reviews-grid class'ına artık gerek yok, kaldırılabilir */
 
 /* Responsive Google Maps Iframe */
 .contact-map {
