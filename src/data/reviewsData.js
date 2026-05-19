@@ -103,7 +103,32 @@ export const allReviews  = [
         name: "Can Ahmet Yigman",
         text: "İşinde gayet iyi ve ilgili uzman gönül rahatlığıyla arayabilir ve çağırabilirsiniz mert bey ve ekibine teşekkür ederim 🙏🙃 …",
         stars: 5
-    }
+    },
+    {
+        name: "Toprak Küçük",
+        text: "Kombi bakımı ve petek temizliği yaptırdım kaliteli işçilik uygun fiyat düşünmeden arayabilirsiniz",
+        stars: 5
+    },
+    {
+        name: "CEVDET KILIÇARSLAN",
+        text: "Hızlı ve güvenilir hizmet",
+        stars: 5
+    },
+    {
+        name: "Mustafa",
+        text: "İşini temiz ve titiz yapan bir usta. Sorunu kısa sürede çözdü, detaylı şekilde bilgilendirme yaptı. Hem güler yüzlü hem de profesyoneldi, gönül rahatlığıyla tavsiye ederim.",
+        stars: 5
+    },
+    {
+        name: "Emrecan Cavdaroglu",
+        text: "Yıllardır kombi bakım ve onarım işlemlerini güvenle yaptırdığım bir firma herkese tavsiye ederim güvenilir ve başarılı işçilik ..",
+        stars: 5
+    },
+    {
+        name: "Mert Şen",
+        text: "GÜLER YÜZLÜ VE TEMİZ İŞÇİLİK BİR USTAYDI GÖNÜL RAHATLIĞI İLE ÇAĞIRABİLİRSİNİZ",
+        stars: 5
+    },
 ];
 
 /**
